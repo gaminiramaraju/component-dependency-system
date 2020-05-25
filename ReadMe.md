@@ -1,9 +1,10 @@
-How to run
+How to run?
 
-after downloading  project from https://git@github.com:gaminiramaraju/component-dependency-system.git
+1) Download  project from https://git@github.com:gaminiramaraju/component-dependency-system.git
 
-Get the path from target folder , in command prompt
-java -jar <path to target>/component-dependency-system-0.0.1-SNAPSHOT.jar com.cds.ComponentDependencySystemApplication
+2) Get the path from target folder , 
+
+3) in command prompt , java -jar component-dependency-system.jar com.cds.ComponentDependencySystemApplication "< fullpath to input text>/input.txt"
 
 
 Context

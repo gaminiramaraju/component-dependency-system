@@ -39,12 +39,21 @@
 	</dependencies>
 
 	<build>
+		<finalName>component-dependency-system</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<includes>
+					<include>input.txt</include>
+				</includes>
+			</resource>
+		</resources>
 	</build>
 
 </project>

@@ -10,6 +10,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.util.ResourceUtils;
+import org.springframework.util.StringUtils;
 
 import java.io.File;
 import java.util.Scanner;
@@ -26,8 +27,16 @@ public class ComponentDependencySystemApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Resource resource = new ClassPathResource("input.txt");
-		File file = resource.getFile();
+		File file = null;
+		if(!StringUtils.isEmpty(args)){
+			for(String arg : args){
+				file = new File(arg);
+			}
+		}else{
+			Resource resource = new ClassPathResource("input.txt");
+			file = resource.getFile();
+		}
+
 		try {
 		Scanner scanner = new Scanner(file);
 			while (scanner.hasNext()) {
