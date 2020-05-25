@@ -2,9 +2,9 @@ How to run?
 
 1) Download  project from https://git@github.com:gaminiramaraju/component-dependency-system.git
 
-2) Go to downloaded path to locate component-dependency-system.jar 
+2) In command prompt ,Go to downloaded path to locate component-dependency-system.jar 
 
-3) In command prompt , run the following command 
+3)  run the following command 
 java -jar component-dependency-system.jar com.cds.ComponentDependencySystemApplication "<fullpath to input text>"
 
 
