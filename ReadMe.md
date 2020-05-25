@@ -1,7 +1,9 @@
 How to run
 
-import project
+after downloading  project from https://git@github.com:gaminiramaraju/component-dependency-system.git
 
+Get the path from target folder , in command prompt
+java -jar <path to target>/component-dependency-system-0.0.1-SNAPSHOT.jar com.cds.ComponentDependencySystemApplication
 
 
 Context
