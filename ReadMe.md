@@ -5,7 +5,7 @@ How to run?
 2) In command prompt ,Go to downloaded path to locate component-dependency-system.jar 
 
 3)  run the following command 
-java -jar component-dependency-system.jar com.cds.ComponentDependencySystemApplication "<fullpath to input text>"
+java -jar component-dependency-system.jar com.cds.ComponentDependencySystemApplication "fullpath to input text"
 
 
 Context
